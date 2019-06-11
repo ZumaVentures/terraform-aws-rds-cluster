@@ -35,11 +35,11 @@ variable "subnets" {
   description = "List of VPC subnet IDs"
 }
 
-variable "instance_type" {
-  type        = "string"
-  default     = "db.t2.small"
-  description = "Instance type to use"
-}
+# variable "instance_type" {
+#   type        = "string"
+#   default     = "db.t2.small"
+#   description = "Instance type to use"
+# }
 
 variable "cluster_size" {
   type        = "string"
